@@ -2,14 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url(https://fonts.googleapis.com/css2?family=Livvic:wght@100;200;300;400;500;600;800;900&display=swap);
-
-body {
-  font-family: 'Livvic', sans-serif;
-}
-
 @layer components {
     .containerr {
         @apply w-full max-w-7xl mx-auto px-5
+    }
+    .header-link{
+        @apply text-lg font-semibold leading-7 font-Livvic
     }
 }

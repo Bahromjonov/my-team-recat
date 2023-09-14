@@ -9,6 +9,12 @@ export default {
       colors:{
         'midnightGreen':'#014E56',
         'lightCoral':'#F67E7E',
+      },
+      spacing: {
+        '73':'73px'
+      },
+      fontFamily:{
+        'Livvic': ['Livvic', "sans-serif"]
       }
     },
   },
