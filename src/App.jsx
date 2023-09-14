@@ -2,6 +2,7 @@ import React, { } from 'react'
 import { Link } from 'react-router-dom'
 
 import logo from './assets/myteamLogo.svg'
+import Home from './pages/Home'
 
 function App() {
 
@@ -28,7 +29,7 @@ function App() {
               </ul>
             </nav>
           </div>
-
+          {/* Contact link */}
           <div>
             <Link to='contact' className='header-link border-white border-2 py-2.5 px-8 rounded-full hover:bg-white hover:text-black duration-200'>
               contact us
@@ -37,6 +38,13 @@ function App() {
 
         </div>
       </header>
+
+      {/* Main  */}
+
+      <main>
+<Home/>
+
+      </main>
 
     </div>
   )

@@ -11,10 +11,20 @@ export default {
         'lightCoral':'#F67E7E',
       },
       spacing: {
-        '73':'73px'
+        '73':'73px',
+        '50':'50PX'
       },
       fontFamily:{
         'Livvic': ['Livvic', "sans-serif"]
+      },
+      fontSize:{
+        '100':'100px'
+      },
+      lineHeight: {
+        '100': '100px',
+      },
+      maxWidth:{
+        '445':'445px'
       }
     },
   },
