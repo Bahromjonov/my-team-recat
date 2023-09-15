@@ -9,6 +9,8 @@ export default {
       colors:{
         'midnightGreen':'#014E56',
         'lightCoral':'#F67E7E',
+        'sacramentoStateGreen':'#012F34',
+        'lightCoral':'#F67E7E',
       },
       spacing: {
         '73':'73px',
@@ -22,6 +24,7 @@ export default {
       },
       lineHeight: {
         '100': '100px',
+        '48': '48px',
       },
       maxWidth:{
         '445':'445px'

@@ -9,4 +9,7 @@
     .header-link{
         @apply text-lg font-semibold leading-7 font-Livvic
     }
+    .main-still{
+        @apply text-5xl font-bold font-Livvic leading-48
+    }
 }

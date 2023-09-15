@@ -42,7 +42,7 @@ function App() {
       {/* Main  */}
 
       <main>
-<Home/>
+        <Home />
 
       </main>
 
