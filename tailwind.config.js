@@ -11,6 +11,8 @@ export default {
         'lightCoral':'#F67E7E',
         'sacramentoStateGreen':'#012F34',
         'lightCoral':'#F67E7E',
+        'deepJungleGreen':'#004047',
+        'raptureBlue':'#79C8C7',
       },
       spacing: {
         '73':'73px',

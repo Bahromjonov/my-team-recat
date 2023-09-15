@@ -1,6 +1,7 @@
 import React from 'react'
 
 import BulidMange from '../components/BulidMange'
+import DeliveringReal from '../components/DeliveringReal'
 import FindBest from '../components/FindBest'
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
         <div>
             <FindBest />
             <BulidMange />
+            <DeliveringReal/>
         </div>
     )
 }

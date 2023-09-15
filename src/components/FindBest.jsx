@@ -5,13 +5,13 @@ import heroImg2 from '../assets/hero-img2.svg'
 const FindBest = () => {
     return (
          // Hero
-        <div className='bg-midnightGreen pt-24 pb-64 relative'>
+        <div className='bg-midnightGreen pt-24 pb-52 relative'>
             <section className='containerr '>
 
-                <div className='flex justify-between mb-40'>
+                <div className='flex justify-between mb-40 '>
                     <div className='relative'>
                         <h2 className='text-100 font-bold font-Livvic leading-100'>Find the <br /> best <span className='text-lightCoral'>talent</span> </h2>
-                        <img className='absolute top-0 -left-60' src={heroImg} alt="aria-hidden=true" />
+                        <img className='absolute top-0  -left-60' src={heroImg} alt='' aria-hidden="true" />
                     </div>
                     <div >
                         <div className='w-50 h-1 bg-emerald-300 mb-24'></div>
@@ -22,7 +22,7 @@ const FindBest = () => {
                 </div>
                 {/* Hero img */}
                 <div className='flex justify-end '>
-                    <img className='absolute' src={heroImg2} alt="aria-hidden=true" />
+                    <img className='absolute -bottom-24 ' src={heroImg2} alt='' aria-hidden="true" />
                 </div>
 
             </section>

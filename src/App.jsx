@@ -3,11 +3,10 @@ import { Link } from 'react-router-dom'
 
 import logo from './assets/myteamLogo.svg'
 import Home from './pages/Home'
-
 function App() {
 
   return (
-    <div className='text-white'>
+    <div style={{ overflowY: 'hidden' }}  className='text-white flex flex-col min-h-screen'>
       {/* Header */}
       <header className='bg-midnightGreen '>
         <div className='containerr pt-73 pb-8 flex items-center justify-between'>
@@ -41,7 +40,7 @@ function App() {
 
       {/* Main  */}
 
-      <main>
+      <main className='grow'>
         <Home />
 
       </main>
