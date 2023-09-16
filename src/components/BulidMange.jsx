@@ -7,10 +7,10 @@ import bulidImg from '../assets/bulid-img.png'
 
 const BulidMange = () => {
     return (
-        <div className='bg-sacramentoStateGreen '>
-            <section className='containerr py-36 relative'>
+        <section className='bg-sacramentoStateGreen relative'>
+            <div className='containerr py-36 relative '>
                 <div className='w-50 h-1 bg-lightCoral mb-12 '></div>
-                <div className='flex justify-between'>
+                <div className='flex justify-between '>
                     <div>
                         <h2 className='main-still max-w-445'>Build & manage distributed teams like no one else.</h2>
                     </div>
@@ -26,7 +26,7 @@ const BulidMange = () => {
                                     <p className='text-still-base '>Our network is made up of highly experienced professionals <br /> who are passionate about what they do.</p>
                                 </div>
                             </div>
-
+        
                             {/* Easy to Implement */}
                             <div className='flex items-center'>
                                 <div className='w-14 h-14 bg-midnightGreen rounded-full mr-6 relative'>
@@ -52,8 +52,8 @@ const BulidMange = () => {
 
                     </div>
                 </div>
-            </section>
-        </div>
+            </div>
+        </section>
     )
 }
 
