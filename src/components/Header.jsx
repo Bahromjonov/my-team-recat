@@ -20,7 +20,7 @@ const Header = () => {
                 <Link className='header-link foli hover:text-lightCoral duration-200 '>home</Link>
               </li>
               <li>
-                <Link className='header-link foli hover:text-lightCoral duration-200 '>about</Link>
+                <Link to='about' className='header-link foli hover:text-lightCoral duration-200 '>about</Link>
               </li>
             </ul>
           </nav>

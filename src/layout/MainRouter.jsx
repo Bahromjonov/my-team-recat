@@ -5,10 +5,9 @@ import Home from '../pages/Home'
 
 const MainRouter = () => {
     return (
-        <div className='text-white flex flex-col min-h-screen'>
+        <div className='text-white '>
             <Header />
-            <main className=''>
-             
+            <main >
                 <Outlet />
             </main>
 
