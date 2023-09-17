@@ -1,7 +1,7 @@
 import React from 'react';
 // Imgs
 import deliveringImg from '../assets/reviews-bg-left.svg'
-
+import img from '../assets/delivering-img.png'
 import { data } from '../data';
 
 const DeliveringReal = () => {
@@ -12,8 +12,8 @@ const DeliveringReal = () => {
                     <img width={147} height={100} className='absolute -top-[145px] -left-[165px]' src={deliveringImg} alt="" aria-hidden='true' />
                     <h2 className='text-center main-still '>Delivering real results for top <br /> companies. Some of our <span className='text-raptureBlue'>success stories.</span></h2>
                 </div>
-                
-                <div>
+
+                <div className='relative'>
                     <ul className='flex items-center justify-between'>
                         {data.map((e, i) => (
                             <li key={i}>
@@ -29,7 +29,7 @@ const DeliveringReal = () => {
                             </li>
                         ))}
                     </ul>
-
+                    <img className='absolute -right-32 ' width={200} height={200} src={img} alt="" aria-hidden='true' />
                 </div>
 
             </div>
