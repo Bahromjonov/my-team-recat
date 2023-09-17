@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../assets/myteamLogo.svg'
-import { Link, NavLink } from 'react-router-dom'
+import { Link, } from 'react-router-dom'
 
 const Footer = () => {
     return (
@@ -27,7 +27,6 @@ const Footer = () => {
                     <div>
                         <p className='text-still-base opacity-60'>987  Hillcrest Lane <br /> Irvine, CA <br /> California 92714 <br /> Call Us : 949-833-7432</p>
                     </div>
-
                 </div>
                 <div className=''>
                     <ul className='flex items-start space-x-5 justify-end mb-12 '>

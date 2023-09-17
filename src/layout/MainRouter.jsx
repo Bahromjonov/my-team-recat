@@ -4,7 +4,6 @@ import Cta from '../components/Cta'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
 
-
 const MainRouter = () => {
     return (
         <div className='text-white flex flex-col  min-h-screen'>
