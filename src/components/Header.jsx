@@ -1,12 +1,13 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import logo from '../assets/myteamLogo.svg'
 
 const Header = () => {
+  const navigate = useNavigate()
   return (
     <div>  {/* Header */}
     <header className='bg-midnightGreen '>
-      <div className='containerr pt-73 pb-8 flex items-center justify-between'>
+      <div className='containerr py-73  flex items-center justify-between'>
 
         <div className='flex items-center '>
           {/* Logo icon */}
@@ -27,9 +28,9 @@ const Header = () => {
         </div>
         {/* Contact link */}
         <div>
-          <Link to='contact' className='header-link border-white border-2 py-2.5 px-8 rounded-full hover:bg-white hover:text-black duration-200'>
+          <button onClick={(() => navigate('contact'))} className='header-link border-white border-2 py-2.5 px-8 rounded-full hover:bg-white hover:text-black duration-200'>
             contact us
-          </Link>
+          </button>
         </div>
 
       </div>

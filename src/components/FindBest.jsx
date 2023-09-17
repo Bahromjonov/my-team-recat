@@ -5,7 +5,7 @@ import heroImg2 from '../assets/hero-img2.svg'
 const FindBest = () => {
     return (
          // Hero
-        <section className='bg-midnightGreen pt-24 pb-52 relative'>
+        <section className='bg-midnightGreen pt-20 pb-52 relative'>
             <div className='containerr '>
 
                 <div className='flex justify-between mb-40 '>

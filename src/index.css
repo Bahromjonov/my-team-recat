@@ -6,6 +6,10 @@
     .containerr {
         @apply w-full max-w-7xl mx-auto px-5
     }
+    .ctaContainer{
+        @apply w-full max-w-917 mx-auto px-5
+    }
+}
     .header-link{
         @apply text-lg font-semibold leading-7 font-Livvic
     }
@@ -15,5 +19,4 @@
     .text-still-base {
         @apply text-base font-semibold font-Livvic
     }
-}
 
