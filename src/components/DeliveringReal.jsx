@@ -18,13 +18,13 @@ const DeliveringReal = () => {
                         {data.map((e, i) => (
                             <li key={i}>
                                 <div className='w-full max-w-350 flex flex-col items-center text-center relative'>
-                                    <img width={67} height={56} className='absolute -top-10 ' src={e.vergul} alt="comma img" />
+                                    <img width={67} height={56} className='absolute -top-10 ' src={e.vergul} alt='comma img' />
                                     <p className='text-still-base mb-6 z-10'>{e.text}</p>
                                     <div className='mb-8'>
                                         <h3 className='text-raptureBlue text-lg font-bold font-Livvic leading-7'>{e.title}</h3>
                                         <span className='text-sm font-medium font-Livvic '>{e.description}</span>
                                     </div>
-                                    <img width={62} height={62} src={e.img} alt="gril img" />
+                                    <img width={62} height={62} src={e.img} alt={e.title} />
                                 </div>
                             </li>
                         ))}

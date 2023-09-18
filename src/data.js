@@ -30,44 +30,41 @@ export const data = [
   },
 ];
 
-import nikita from '../assets/nikita.svg'
-import Cristian from '../assets/cristian.svg'
-import drake from '../assets/drace.svg'
-import cruz from '../assets/cruz.svg'
-import griffin from '../assets/griffin.svg'
-import nikita from '../assets/nikita.svg'
-
+import nikita from './assets/nikita.svg';
+import Cristian from './assets/cristian.svg';
+import drake from './assets/drake.svg';
+import cruz from './assets/cruz.svg';
+import griffin from './assets/griffin.svg';
 
 export const directors = [
   {
-    img:nikita,
-    title:'Nikita Marks',
-    description:'Founder & CEO'
+    img: nikita,
+    title: 'Nikita Marks',
+    description: 'Founder & CEO'
   },
   {
-    img:Cristian,
-    title:'Cristian Duncan',
-    description:'Co-founder & COO'
+    img: Cristian,
+    title: 'Cristian Duncan',
+    description: 'Co-founder & COO'
   },
   {
-    img:cruz,
-    title:'Cruz Hamer',
-    description:'Co-founder & CTO'
+    img: cruz,
+    title: 'Cruz Hamer',
+    description: 'Co-founder & CTO'
   },
   {
-    img:drake,
-    title:'Drake Heaton',
-    description:'Business Development Lead'
+    img: drake,
+    title: 'Drake Heaton',
+    description: 'Business Development Lead'
   },
   {
-    img:griffin,
-    title:'Griffin Wise',
-    description:'Lead Marketing'
+    img: griffin,
+    title: 'Griffin Wise',
+    description: 'Lead Marketing'
   },
   {
-    img:nikita,
-    title:'Nikita Marks',
-    description:'Founder & CEO'
+    img: nikita,
+    title: 'Nikita Marks',
+    description: 'Founder & CEO'
   },
-
-]
+];
