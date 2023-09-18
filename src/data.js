@@ -29,3 +29,45 @@ export const data = [
     img: Arthur,
   },
 ];
+
+import nikita from '../assets/nikita.svg'
+import Cristian from '../assets/cristian.svg'
+import drake from '../assets/drace.svg'
+import cruz from '../assets/cruz.svg'
+import griffin from '../assets/griffin.svg'
+import nikita from '../assets/nikita.svg'
+
+
+export const directors = [
+  {
+    img:nikita,
+    title:'Nikita Marks',
+    description:'Founder & CEO'
+  },
+  {
+    img:Cristian,
+    title:'Cristian Duncan',
+    description:'Co-founder & COO'
+  },
+  {
+    img:cruz,
+    title:'Cruz Hamer',
+    description:'Co-founder & CTO'
+  },
+  {
+    img:drake,
+    title:'Drake Heaton',
+    description:'Business Development Lead'
+  },
+  {
+    img:griffin,
+    title:'Griffin Wise',
+    description:'Lead Marketing'
+  },
+  {
+    img:nikita,
+    title:'Nikita Marks',
+    description:'Founder & CEO'
+  },
+
+]
