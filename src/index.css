@@ -51,3 +51,8 @@
     display:block;
 }
 
+*:focus {
+    outline: 5px dotted rgb(192, 173, 173);
+    outline-offset: 5px;
+    
+}
