@@ -1,3 +1,6 @@
-<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M15.0711 3.75735L12.2426 0.92892L8 5.17156L3.75736 0.92892L0.928932 3.75735L5.17157 7.99999L0.928932 12.2426L3.75736 15.0711L8 10.8284L12.2426 15.0711L15.0711 12.2426L10.8284 7.99999L15.0711 3.75735Z" fill="#012F34"/>
+<svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 13">
+<circle id="Oval" cx="28" cy="28" r="28" fill="#79C8C7"/>
+<path id="Combined Shape" fill-rule="evenodd" clip-rule="evenodd" d="M35.0711 23.7573L32.2426 20.9289L28 25.1716L23.7574 20.9289L20.9289 23.7573L25.1716 28L20.9289 32.2426L23.7574 35.0711L28 30.8284L32.2426 35.0711L35.0711 32.2426L30.8284 28L35.0711 23.7573Z" fill="#012F34"/>
+</g>
 </svg>

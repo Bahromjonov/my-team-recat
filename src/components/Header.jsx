@@ -23,6 +23,7 @@ const Header = () => {
               <li>
                 <Link to='about' className='header-link foli hover:text-lightCoral duration-200 '>about</Link>
               </li>
+              
             </ul>
           </nav>
         </div>

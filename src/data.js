@@ -38,33 +38,57 @@ import griffin from './assets/griffin.svg';
 
 export const directors = [
   {
+    id: 1,
     img: nikita,
-    title: 'Nikita Marks',
-    description: 'Founder & CEO'
+    name: 'Nikita Marks',
+    description: '“Empowered teams create truly amazing products. Set the north star and let them follow it.”',
+    job: 'Founder & CEO',
+    twitter: 'https://twitter.com',
+    linkedin: 'https://linkedin.com',
   },
   {
     img: Cristian,
-    title: 'Cristian Duncan',
-    description: 'Co-founder & COO'
+    name: 'Cristian Duncan',
+
+    description: '“Empowered teams create truly amazing products. Set the north star and let them follow it.”',
+    twitter: 'https://twitter.com',
+    linkedin: 'https://linkedin.com',
+    job: 'Co-founder & COO'
   },
   {
     img: cruz,
-    title: 'Cruz Hamer',
-    description: 'Co-founder & CTO'
+    name: 'Cruz Hamer',
+
+    description: '“Empowered teams create truly amazing products. Set the north star and let them follow it.”',
+    twitter: 'https://twitter.com',
+    linkedin: 'https://linkedin.com',
+    job: 'Co-founder & CTO'
   },
   {
     img: drake,
-    title: 'Drake Heaton',
-    description: 'Business Development Lead'
+    name: 'Drake Heaton',
+
+    description: '“Empowered teams create truly amazing products. Set the north star and let them follow it.”',
+    twitter: 'https://twitter.com',
+    linkedin: 'https://linkedin.com',
+    job: 'Business Development Lead'
   },
   {
     img: griffin,
-    title: 'Griffin Wise',
-    description: 'Lead Marketing'
+    name: 'Griffin Wise',
+
+    description: '“Empowered teams create truly amazing products. Set the north star and let them follow it.”',
+    twitter: 'https://twitter.com',
+    linkedin: 'https://linkedin.com',
+    job: 'Lead Marketing'
   },
   {
     img: nikita,
-    title: 'Nikita Marks',
-    description: 'Founder & CEO'
+    name: 'Nikita Marks',
+
+    description: '“Empowered teams create truly amazing products. Set the north star and let them follow it.”',
+    twitter: 'https://twitter.com',
+    linkedin: 'https://linkedin.com',
+    job: 'Founder & CEO'
   },
 ];
