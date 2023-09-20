@@ -6,20 +6,48 @@
     .containerr {
         @apply w-full max-w-7xl mx-auto px-5
     }
-    .ctaContainer{
+
+    .ctaContainer {
         @apply w-full max-w-917 mx-auto px-5
     }
-    .header-link{
+
+    .header-link {
         @apply text-lg font-semibold leading-7 font-Livvic
     }
-    .main-still{
+
+    .main-still {
         @apply text-5xl font-bold font-Livvic leading-48
     }
+
     .text-still-base {
         @apply text-base font-semibold font-Livvic
     }
-.about-still{
-    @apply text-[64px] font-bold font-Livvic leading-[100px]
+
+    .about-still {
+        @apply text-[64px] font-bold font-Livvic leading-[100px]
+    }
 }
+*::placeholder{
+    color: rgb(174, 48, 48);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+}
+.eror{
+    color: rgb(183, 46, 46);
+    display: none;
+}
+.right{
+    display: none;
+    color: rgb(14, 197, 179);
+}
+.contact-email:not(:placeholder-shown)+.eror {
+    display: block;
+}
+.contact-email:valid ~ .eror {
+    display: none;
+}
+.contact-email:valid ~ .right {
+    display:block;
 }
 

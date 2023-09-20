@@ -13,6 +13,7 @@ export default {
         'deepJungleGreen':'#004047',
         'raptureBlue':'#79C8C7',
         'darkGreen':'#002529',
+        'policeBlue':'#2C6269',
       },
       spacing: {
         '73':'73px',
@@ -34,6 +35,7 @@ export default {
         '917':'917px',
         '730':'730px',
         '56':'56px',
+        '540':'540px',
       },
       gap:{
         '30':'30px',
