@@ -5,7 +5,7 @@ import Header from '../components/Header'
 
 const MainRouter = () => {
     return (
-        <div className='text-white flex flex-col  min-h-screen'>
+        <div className='text-white flex flex-col  min-h-screen overflow-hidden'>
             <Header />
             <main className='grow'>
                 <Outlet />
@@ -16,3 +16,4 @@ const MainRouter = () => {
 }
 
 export default MainRouter
+
